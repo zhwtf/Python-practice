@@ -8,7 +8,8 @@ def div_by_five(num):
     else:
         return False
 
-#create a generator is faster than list
+#The point of using generator is not only fast, but it doesn't use memory
+#create a generator is faster than list comprehension
 #generator
 xyz = (i for i in input_list if div_by_five(i))
 
