@@ -9,3 +9,7 @@ print(zip(x,y,z))
 
 for i in zip(x,y,z):
     print(i)
+
+print(list(zip(x,y,z)))
+
+print(dict(zip(x,y)))
