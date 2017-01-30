@@ -32,3 +32,21 @@ class Blob:
 
         if self.y < -: self.y = 0
         elif self.y > HEIGHT: self.y = HEIGHT
+
+
+def draw_environment():
+    game_display.fill(WHITE)
+    pygame.display.update()
+
+def main():
+    while True:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                quit()
+
+        draw_environment()
+        clock.tick(60)
+
+if __name__ == __main__:
+    mian()
